@@ -1,0 +1,31 @@
+# Portfolio Optimization Configuration
+
+paths:
+  data_path: "data/master/full_data.csv"
+  model_save_dir: "saved_models/"
+  img_dir: "img/"
+
+model:
+  T: 12
+  lookback: 12
+  d_model: 256
+  n_head: 8
+  n_layers: 2
+  G: 20
+
+training:
+  batch_size: 2
+  n_workers: 4
+  lr: 0.0001
+  n_epochs: 10
+  steps_per_epoch: 12
+
+cycles:
+  cycle_idx: 1
+  train_start: "2001-01-01"
+  train_end: "2020-12-31"
+  val_start: "2021-01-01"
+  val_end: "2023-12-31"
+
+evaluation:
+  num_mc_simulations: 100000
