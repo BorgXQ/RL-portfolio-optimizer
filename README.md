@@ -8,7 +8,7 @@ A deep learning system for dynamic long-short portfolio allocation using transfo
 - **CAAN**: Cross-asset attention mechanism to capture inter-asset relationships
 - **Long-Short Portfolio**: Top-G and bottom-G asset selection with softmax weighting
 - **Sharpe Optimization**: Direct maximization of risk-adjusted returns via differentiable loss
-- **Robustness Testing**: Testing: 100,000 Monte Carlo simulations for statistical validation
+- **Robustness Testing**: 100,000 Monte Carlo simulations for statistical validation
 
 ## Model Performance
 
