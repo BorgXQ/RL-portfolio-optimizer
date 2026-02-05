@@ -1,6 +1,6 @@
 # Transformer-Based Long/Short Portfolio Allocation
 
-A deep learning system allocating top winner and loser assets to formulate a dynamic long-short portfolio. Uses a multi-sequence of neural networks comprising SREM, CAAN, and a portfolio generator.
+A deep learning system for dynamic long-short portfolio allocation using transformer-based neural networks. Comprises SREM for feature extraction, CAAN for cross-asset attention, and a portfolio generator for top- and bottom-G asset selection.
 
 ## Features
 
