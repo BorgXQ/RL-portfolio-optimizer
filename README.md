@@ -12,12 +12,16 @@ A deep learning system allocating top winner and loser assets to formulate a dyn
 
 ## Model Performance
 
-| Metric            | AlphaPortfolio | Markowitz Baseline |
-| :---------------- | :------------: | :----------------: |
-| Annualized Sharpe |    **2.07**    |        0.76        |
-| Maximum Drawdown  |    **3.3%**    |        5.4%        |
-| Final Return      |   **42.3%**    |       16.5%        |
-| MC Percentile     |   **99.95%**   |       90.33%       |
+| Metric            | This Model | Markowitz Baseline |
+| :---------------- | :--------: | :----------------: |
+| Annualized Sharpe |  **2.07**  |        0.76        |
+| Maximum Drawdown  |  **3.3%**  |        5.4%        |
+| Final Return      | **42.3%**  |       16.5%        |
+| MC Percentile     | **99.95%** |       90.33%       |
+
+The model outperforms random long-short portfolios in 99.95% of Monte Carlo simulations, demonstrating strong statistical robustness.
+
+![Evaluation performance](img/val_performance.png)
 
 ## Project Structure
 
